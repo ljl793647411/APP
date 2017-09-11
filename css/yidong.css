@@ -1,0 +1,301 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 408137 */
+  src: url('https://at.alicdn.com/t/font_408137_ab9xcyr9dehzolxr.eot');
+  src: url('https://at.alicdn.com/t/font_408137_ab9xcyr9dehzolxr.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_408137_ab9xcyr9dehzolxr.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_408137_ab9xcyr9dehzolxr.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_408137_ab9xcyr9dehzolxr.svg#iconfont') format('svg');
+}
+.iconfont {
+
+    font-family:"iconfont" !important;
+
+    font-size:16px;
+
+    font-style:normal;
+
+    -webkit-font-smoothing: antialiased;
+
+    -webkit-text-stroke-width: 0.2px;
+
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+header{
+	width: 100%;
+	height: 1.3rem;
+	background-color:#59D6E8;
+	position: fixed;
+	left: 0;
+	top: 0;
+	padding: 0  .3rem;
+	z-index: 999;
+}
+.top{
+	width: 100%;
+	height: .6rem;
+    overflow: hidden;
+}
+.top .left{
+	width: .3em;
+	width: .3rem;
+	font-size: .3rem;
+	/* border-right: .01rem #d3d3d3 solid; */
+	margin-top: .2rem;
+	float: left;
+
+}
+.top span{
+	font-size:.3rem;
+	font-family: "苹方";
+	color: #fff;
+	margin-top: .2rem;
+	float: left;
+	margin-left: .2rem;
+}
+.top .right{
+	font-size: .2rem;
+	float: right;
+	margin-top: .3rem;
+
+}
+.bottom{
+	width: 100%;
+	height: .6rem;
+}
+input{
+	display: block;
+	width: 4.5rem;
+	height: .6rem;
+	float: left;
+	margin-left: .85rem;
+	/* margin-top: .2rem; */
+}
+.ss{
+	width: .59rem;
+	height: .59rem;
+	background-color: #fff;
+	border: .01rem #d3d3d3 solid;
+	float: left;
+	/* margin-top: .2rem; */
+}
+.ss .sousuo{
+	display: block;
+	font-size: .3rem;
+	color: #999;
+	text-align: center;
+	line-height: .6rem;
+}
+.top a{
+	color: #fff;
+}
+/* 内容区域 */
+section{
+	background-color: #f0f0f0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 1.3rem;
+	bottom: 1rem;
+	margin: auto;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+/* 秒杀开始 */
+.miaosha{
+	display: block;
+	width: 100%;
+	height: 1.6rem;
+	background-image: url('../img/miaosha.png');
+	background-size:100% 1.6rem ;
+}
+
+/* 秒杀结束 */
+/* 新品开始 */
+.xinpin{
+	width: 100%;
+	height: 4.6rem;
+	background-color: #f0f0f0;
+	padding: 0 .3rem
+}
+.xinpin-top{
+	width: 100%;
+	height: .6rem;
+	background-color: #f0f0f0;
+/* 	padding: 0  .3rem; */
+	font-size: .3rem;
+	line-height: .6rem;
+	color: #000;
+	font-family: "苹方";
+}
+.xinpin-bottom{
+	width: 100%;
+	height: 4rem;
+	background-color: #f0f0f0;
+	/* padding: 0  .3rem; */
+}
+.xb-box{
+	width: 2.06rem;
+	height: 100%;
+	background-color: #fff;
+	float: left;
+	margin-left: .2rem;
+}
+.xinpin-bottom .box1{
+	margin-left: 0;
+}
+.xb-boxtu{
+	width: 2.06rem;
+	height: 3rem;
+
+}
+.xb-boxzi{
+	width: 100%;
+	height: .4rem;
+	margin: 0 auto;
+	margin-top: .2rem;
+	font-size: .2rem;
+	color: #999;
+	font-family: "苹方";
+	text-align: center;
+	line-height: .2rem;
+
+}
+.xb-boxzi1{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: .1rem;
+	font-size: .2rem;
+	color: #ff6700;
+	font-family: "苹方";
+	text-align: center;
+	line-height: .2rem;
+
+}
+/* 新品结束 */
+/* .rexiao{
+	width: 100%;
+	height: 4.6rem;
+	background-color: #fff;
+}
+.rexiao-top{
+	width: 100%;
+	height: .6rem;
+	background-color: red;
+	padding: 0  .3rem;
+}
+.rexiao-bottom{
+	width: 100%;
+	height: 4rem;
+	background-color: blue;
+	padding: 0  .3rem;
+} */
+/* 攻略开始 */
+.gonglve{
+	width: 100%;
+	background-color: #f0f0f0;
+}
+.gonglve-top{
+	width: 100%;
+	height: .6rem;
+	background-color: #f0f0f0;
+	padding: 0  .3rem;
+}
+.gltop-left{
+	font-size: .3rem;
+	color:#d3d3d3;
+	font-family: "苹方";
+	float: left;
+	line-height: .6rem;
+	text-align: left;
+}
+.gltop-right{
+	height: .3rem;
+	float: right;
+	font-size: .3rem;
+	color: #d3d3d3;
+	font-family: "苹方";
+	line-height: .6rem;
+}
+.gonglve-bottom{
+	width: 100%;
+	background-color: #f0f0f0;
+	padding: 0  .3rem;
+}
+.gl{
+	width: 100%;
+	height: 2.5rem;
+	background-color: #fff;
+	margin-top: .2rem;
+}
+.gl1{
+	margin-top: 0;
+}
+.gl-left{
+	width: 2rem;
+	height: 2.5rem;
+	float: left;
+
+}
+.gl-right{
+	width: 4.4rem;
+	height: 2.5rem;
+	background-color: #fff;
+	float: left;
+	margin-left: .2rem;
+}
+.gl-right1{
+	width: 4.2rem;
+	height: 1rem;
+	font-size: 0.26rem;
+	color: #000;
+	font-family: "苹方";
+	padding-top: .3rem;
+
+}
+.gl-right2{
+	width: 4.2rem;
+	height: 1.5rem;
+	margin-top: .1rem;
+	font-size: 0.20rem;
+	color: #999;
+	font-family: "苹方";
+
+}
+/* 攻略结束  */
+/* 内容结束 */
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 1rem;
+	background-color: skyblue;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding: 0 .7rem;
+ }
+ .box i{
+ 	color: #fff;
+ }
+ .box{
+	float: left;
+	margin-left:1.4rem;
+	margin-top: .14rem;
+
+ }	
+ .box i{
+ 	font-size: 0.4rem;
+ 	display: block;
+
+}
+.box-zi{
+	font-size: 0.2rem;
+	color: #fff;
+	text-align: center;
+	margin-top: .1rem;
+}
+.box1{
+	margin-left: 0;
+}
+/* 底部结束 */
