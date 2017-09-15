@@ -112,7 +112,7 @@ section{
 
 .wenzi{
 	display: block;
-	font-size: .5rem;
+	font-size: .3rem;
 	color: #999;
 	font-family: "苹方";
 	padding-top: .3rem;
@@ -141,7 +141,8 @@ section{
 
 }
 .tu-zi{
-	font-size: .4rem;
+	margin-top: .1rem;
+	font-size: .22rem;
 	color: #999;
 	text-align: center;
 }
