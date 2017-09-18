@@ -147,16 +147,14 @@ footer{
 	left: 0;
 	bottom: 0;
 	padding: 0 .7rem;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	align-items: center;
  }
  .box i{
  	color: #fff;
  }
- .box{
-	float: left;
-	margin-left:1.4rem;
-	margin-top: .14rem;
-
- }	
  .box i{
  	font-size: 0.4rem;
  	display: block;
